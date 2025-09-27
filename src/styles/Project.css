@@ -1,0 +1,90 @@
+#project {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: #1a1a1afc;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.project-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr 4fr 2fr;
+    grid-template-areas: 
+    ". . . ."
+    ". . . ."
+      "title title title title"
+      "description description description description"
+      "demo demo stack stack";
+}
+#blue{
+    color: rgb(105, 237, 255);
+}
+.project-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.project-container p,
+.project-container h1 ,
+.project-container  a{
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#project-title {
+    grid-area: title;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 2rem;
+    color: rgb(233, 233, 233);
+}
+
+#project-description {
+    grid-area: description;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0 2rem;
+    color: rgb(200, 200, 200);
+}
+
+#demo {
+    grid-area: demo;
+    padding-left: 2rem;
+    text-align: left;
+}
+
+#stack {
+    z-index: 1;
+    grid-area: stack;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-right: 2rem;
+    gap: 0.5rem;
+}
+#stack img{
+    position: relative;
+    z-index: 1;
+    
+    width: 24px;
+    height: auto;
+}

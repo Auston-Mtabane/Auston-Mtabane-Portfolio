@@ -1,0 +1,10 @@
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: auto;
+    height: auto;
+    background-color: #e1e3e9;
+    overflow: hidden;
+}
