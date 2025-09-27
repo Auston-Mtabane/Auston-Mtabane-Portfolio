@@ -3,6 +3,7 @@ import "../styles/Profile.css";
 export default function Profile() {
   return (
     <div id="profile">
+      
       <main>
         <img src="profile-1.png" alt="person" id="profile-pic" />
 

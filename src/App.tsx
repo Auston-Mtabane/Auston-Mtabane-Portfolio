@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <Nav />
+    <span id='home'></span>
     <div className="container">
       
       <Profile />

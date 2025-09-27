@@ -8,8 +8,8 @@ export default function Nav() {
     <div id="inner-wrapper">
         <ul className="nav-links">
             <li className="nav-option"><a href="#home">Home</a></li>
-            <li className="nav-option"><a href="#Projects">About</a></li>
-            <li className="nav-option"><a href="#skills">Skills</a></li>
+            <li className="nav-option"><a href="#Projects">Work</a></li>
+            <li className="nav-option"><a href="#skills">About</a></li>
             <li className="nav-option"><a href="#contact">Contact</a></li>
         </ul>
       </div>
