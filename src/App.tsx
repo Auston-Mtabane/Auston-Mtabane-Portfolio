@@ -2,11 +2,16 @@ import './App.css'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
 import Test from './components/Test'
+import Nav from './components/Nav'
+
+
 function App() {
 
   return (
     <>
+    <Nav />
     <div className="container">
+      
       <Profile />
       <Projects />
       <Test />
