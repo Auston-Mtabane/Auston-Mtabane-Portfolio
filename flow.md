@@ -59,5 +59,8 @@ Good question — a developer portfolio should tell **who you are**, **what you 
 **Hero → About Me → Projects → Skills → Education → (Experience if any) → Contact**
 
 ---
-
-Would you like me to **draft a simple wireframe layout** (visual block structure) so you can see how these sections flow on the page?
+# HERO
+- computer window style design
+- power button that turns-on the website. (cool animations)
+- neumorphism
+- add mimi game on hero
