@@ -1,0 +1,40 @@
+.container-hero {
+    justify-self: center;
+    display: flex;
+    /* justify-content: left; */
+    align-items: center;
+    max-width: 1000px;
+    gap: 2rem;
+    margin: 3rem;
+    height: 100%;
+
+}
+
+#hero-text {
+
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+#hero-text h1 {
+    color: rgb(145, 145, 145);
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+#hero-text p {
+    color: rgb(158, 158, 158);
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+#design {
+    background: linear-gradient(90deg, #616161, #f17420);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

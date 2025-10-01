@@ -1,5 +1,5 @@
 import './App.css'
-import Profile from './components/Profile'
+import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Test from './components/Test'
 import Nav from './components/Nav'
@@ -13,7 +13,7 @@ function App() {
     <span id='home'></span>
     <div className="container">
       
-      <Profile />
+      <Hero />
       <Projects />
       <Test />
 
