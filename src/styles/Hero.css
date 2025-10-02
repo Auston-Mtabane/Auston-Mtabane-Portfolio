@@ -1,20 +1,26 @@
 .container-hero {
-    justify-self: center;
+    
     display: flex;
-    /* justify-content: left; */
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
     max-width: 1000px;
     gap: 2rem;
     margin: 3rem;
     height: 100%;
 
+
 }
 
 #hero-text {
-
     text-align: left;
     width: auto;
     height: auto;
+}
+#bold {
+    color: #a84605;
+    font-weight: bold;
 }
 
 #hero-text h1 {
@@ -25,6 +31,7 @@
     line-height: 5rem;
     margin-bottom: 2rem;
 }
+
 #hero-text p {
     color: rgb(158, 158, 158);
     font-size: 1.2rem;
@@ -37,4 +44,19 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-hero {
+        display: block;
+    }
+
+    #hero-text h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-block: 2rem;
+        text-align: center;
+    }
+
+
 }
