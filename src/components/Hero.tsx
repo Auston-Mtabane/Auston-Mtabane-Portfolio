@@ -6,8 +6,8 @@ export default function Hero() {
     <div className="container-hero">
         <Profile />
         <div id="hero-text">
-            <h1 id="heading">A <span id="dev">&lt;Developer/&gt;</span> & <span id="design">Designer</span></h1>
-            <p className="text"><span id="bold">D</span>etermined to turn ideas into interactive, meaningful software.<br/><span id="bold">E</span>mpowered by curiosity and a love for technology.<br /><span id="bold">V</span>ision-driven, value-focused, future-ready.</p>
+            <h1 id="heading">A <span id="dev">&lt;Developer/&gt;</span> <br /> & <span id="design">Designer</span></h1>
+            <p className="text">Determined to turn ideas into interactive, meaningful software.<br/>Empowered by curiosity and a love for technology.<br />Vision-driven, value-focused, future-ready.</p>
         </div>
       
     </div>
