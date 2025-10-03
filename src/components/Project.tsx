@@ -32,6 +32,9 @@ export default function Project({ projectId ,name, projectName, description, dem
         </div>
       </div>
       <dialog open={size_ !== ""}>
+        <div>
+
+        </div>
         <h1>What is Lorem Ipsum?</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing
@@ -44,6 +47,18 @@ export default function Project({ projectId ,name, projectName, description, dem
           passages, and more recently with desktop publishing software like
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
+        <div className="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ci0H1thFP4s?si=OyRrpzbHyppNoFgM"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
       </dialog>
     </>
   );
