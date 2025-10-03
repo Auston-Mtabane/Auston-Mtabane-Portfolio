@@ -1,14 +1,15 @@
 import "../styles/Projects.css";
 import Project from "./Project";
 type Props = {
-  projectId : number
+  projectId: number;
   name: string;
   projectName: string;
   description: string;
   demoLink: string;
   stack: string[];
 };
-let projects: Props[] = [{
+let projects: Props[] = [
+  {
     projectId: 1,
     name: "API tester",
     projectName: "LaunchPad-X",
@@ -34,16 +35,16 @@ let projects: Props[] = [{
       "is a Travel Risk Management app that helps users find safe trips.",
     demoLink: "https://github.com/Auston-Mtabane/CPrime-Invoice-Creater",
     stack: ["react", "superbase", "nodejs"],
-  }
+  },
 ];
 export default function Projects() {
-  
   return (
-    <><h1 id="Projects">Projects</h1>
+    <>
+      <h1 id="Projects">Projects</h1>
       <div id="projects">
         {projects.map((project) => (
           <Project
-            key={project.projectId }
+            key={project.projectId}
             projectId={project.projectId}
             name={project.name}
             projectName={project.projectName}
@@ -52,8 +53,8 @@ export default function Projects() {
             stack={project.stack}
           />
         ))}
-        
       </div>
+      
     </>
   );
 }

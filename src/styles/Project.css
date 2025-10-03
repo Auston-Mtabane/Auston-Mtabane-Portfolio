@@ -89,3 +89,12 @@
     width: 24px;
     height: auto;
 }
+
+dialog {
+    
+    z-index: 999;
+    width: 60vw;
+    max-width: 1000px;
+}
+
+

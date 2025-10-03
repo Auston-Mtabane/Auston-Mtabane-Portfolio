@@ -14,6 +14,7 @@ function App() {
     <div className="container">
       
       <Hero />
+       <span id='projects.'></span>
       <Projects />
       <Test />
 
