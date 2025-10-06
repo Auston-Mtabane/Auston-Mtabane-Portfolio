@@ -78,6 +78,7 @@ main #profile-pic {
     margin: 1rem;
     border-radius: 1rem;
     transition: all 0.3s ease;
+    width: 90%;
   
 }
 .connect:active{

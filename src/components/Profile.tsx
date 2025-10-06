@@ -19,9 +19,12 @@ export default function Profile() {
             
           </div>
         </div>
-        <button className="connect" >
+        <a href="https://www.linkedin.com/in/auston-mtabane/" target="_blank">
+          <button className="connect" >
               connect +
-          </button>
+        </button>
+        </a>
+        
       </main>
     </div>
   );

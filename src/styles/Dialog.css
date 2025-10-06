@@ -1,0 +1,41 @@
+dialog {
+    /* display: flex; */
+    z-index: 999;
+    width: 60vw;
+    min-width: 320px;
+    max-width: 1000px;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 1.5rem;
+}
+#close-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    margin: 0.5rem;
+}
+
+#bg {
+      object-fit: cover; /* fills the div like background-size: cover */
+      z-index: -1; /* pushes image behind text */
+}
+
+#bg-div{
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+
+    border-radius: 1rem;
+
+
+}
+#cover {
+    display: flex;
+
+}
