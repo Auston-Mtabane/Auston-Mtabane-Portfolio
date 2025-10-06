@@ -19,7 +19,7 @@ export default function Profile() {
             
           </div>
         </div>
-        <button className="connect">
+        <button className="connect" >
               connect +
           </button>
       </main>
