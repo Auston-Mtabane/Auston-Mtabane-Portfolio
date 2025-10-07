@@ -19,6 +19,10 @@
     text-align: left;
     width: auto;
     height: auto;
+    padding: 2rem;
+    background-color: #e1e3e936;
+    backdrop-filter: blur(2px);
+
 }
 #bold {
     color: #a84605;
@@ -46,6 +50,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+    
+
 }
 
 @media only screen and (max-width: 600px) {

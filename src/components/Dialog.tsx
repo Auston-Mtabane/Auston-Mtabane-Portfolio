@@ -12,7 +12,6 @@ export default function Dialog({ size_, setSize }: Prop) {
     <dialog open={size_ !== ""}>
       <div id="cover">
         <div id="bg-div">
-          <img id="bg" src="green.png" alt="" />
         </div>
 
         <div id="close-btn" onClick={handleClick}>

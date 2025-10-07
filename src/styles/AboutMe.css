@@ -1,0 +1,32 @@
+.container-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    max-width: 100vw;
+    gap: 2rem;
+    margin: 3rem;
+    height: 100%;
+     
+}
+#outer{
+background: url("BACKG.svg");
+}
+
+#about-me{
+    display: flex;
+    justify-self: center;
+    max-width: 800px;
+    color: rgb(62, 62, 62);
+
+    background: rgba(255, 255, 255, 0.152);
+    backdrop-filter: blur(1.5px);
+    /* glassy floaty effect */
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* stays above other content */
+    border: 1px solid rgb(255, 255, 255);
+    
+}

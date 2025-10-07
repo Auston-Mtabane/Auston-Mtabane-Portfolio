@@ -9,7 +9,7 @@ export default function Nav() {
         <ul className="nav-links">
             <li className="nav-option"><a href="#home">Home</a></li>
             <li className="nav-option"><a href="#projects.">Work</a></li>
-            <li className="nav-option"><a href="#skills">About</a></li>
+            <li className="nav-option"><a href="#About">About</a></li>
             <li className="nav-option"><a href="#contact">Contact</a></li>
         </ul>
       </div>

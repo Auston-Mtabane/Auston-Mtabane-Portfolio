@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Test from './components/Test'
 import Nav from './components/Nav'
+import AboutMe from './components/AboutMe'
 
 
 function App() {
@@ -16,7 +17,11 @@ function App() {
       <Hero />
        <span id='projects.'></span>
       <Projects />
+      <span id='About'></span>
+      <AboutMe/>
+      <span id='pr'></span>
       <Test />
+
 
     </div>
     </>
