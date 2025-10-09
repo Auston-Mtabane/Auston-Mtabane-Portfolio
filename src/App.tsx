@@ -20,7 +20,7 @@ function App() {
       <span id='About'></span>
       <AboutMe/>
       <span id='pr'></span>
-      <Test />
+      
 
 
     </div>

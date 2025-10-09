@@ -17,10 +17,18 @@ export default function AboutMe() {
           </p>
 
         </div>
-        <div id="skills">
+        <div id="skills-outer-div">
           <h4>
             skills
           </h4>
+          <div id="skills-inner-div">
+            <span className="skill">Agile Development</span>
+            <span className="skill">UI/UX Design</span>
+            <span className="skill">Test Driven Development</span>
+            <span className="skill">Software Engineering</span>
+            <span className="skill">Graphic Design</span>
+            
+          </div>
 
         </div>
       </div>

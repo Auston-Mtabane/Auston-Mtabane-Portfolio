@@ -8,13 +8,17 @@
     gap: 2rem;
     margin: 3rem;
     height: 100%;
-     
-}
-#outer{
-background: url("BACKG.svg");
+
 }
 
-#about-me{
+#outer {
+    justify-self: center;
+    background: url("BACKG.svg");
+    min-width: 350px;
+    width: 60vw;
+}
+
+#about-me {
     display: flex;
     justify-self: center;
     max-width: 800px;
@@ -28,5 +32,24 @@ background: url("BACKG.svg");
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     /* stays above other content */
     border: 1px solid rgb(255, 255, 255);
+
+
+}
+
+#skills-inner-div{
+    display: block;
     
+    max-width: 800px;
+
+    
+}
+.skill {
+    padding-inline: 1rem;
+    background-color: antiquewhite;
+    color: orange;
+    border-radius: 3rem ;
+    border: 1px solid orange;
+    margin: 4px;
+
+
 }
