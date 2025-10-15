@@ -1,7 +1,6 @@
 import './App.css'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
-import Test from './components/Test'
 import Nav from './components/Nav'
 import AboutMe from './components/AboutMe'
 
