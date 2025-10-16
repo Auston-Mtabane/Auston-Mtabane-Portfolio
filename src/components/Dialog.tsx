@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../styles/Dialog.css";
 
 interface Prop {
@@ -5,11 +6,16 @@ interface Prop {
   setSize: React.Dispatch<React.SetStateAction<string>>;
 }
 export default function Dialog({ size_, setSize }: Prop) {
+  const [s,setS]= useState(size_);
+  console.log("size_ = "+size_);
+
+
   const handleClick = () => {
-    setSize("");
+    setS("");
+    console.log(`clicked...${s}`);
   };
   return (
-    <dialog open={size_ !== ""}>
+    <dialog open={s !== ""}>
       <div id="cover">
         <div id="bg-div">
         </div>

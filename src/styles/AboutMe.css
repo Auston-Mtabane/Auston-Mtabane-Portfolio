@@ -8,12 +8,17 @@
     gap: 2rem;
     margin: 3rem;
     height: 100%;
-
 }
 
 #outer {
+
+    display: flex;
     justify-self: center;
-    background: url("BACKG.svg");
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
     min-width: 350px;
     width: 60vw;
 }
@@ -32,16 +37,11 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     /* stays above other content */
     border: 1px solid rgb(255, 255, 255);
-
-
 }
 
 #skills-inner-div{
     display: block;
-    
-    max-width: 800px;
-
-    
+    max-width: 800px;    
 }
 .skill {
     padding-inline: 1rem;
@@ -50,6 +50,4 @@
     border-radius: 3rem ;
     border: 1px solid orange;
     margin: 4px;
-
-
 }

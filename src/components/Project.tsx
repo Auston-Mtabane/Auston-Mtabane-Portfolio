@@ -12,12 +12,13 @@ type Props = {
 };
 export default function Project({ projectId ,name, projectName, description, demoLink, stack }: Props) {
   const [size_,setSize] = useState("");
-  const handleClick = ()=>{
-      setSize(size_ == "" ? "-expand": "")
+  const handleClick1 = ()=>{
+      setSize(size_ == ""? "-expand":"-expand");
+      console.log(size_);
   }
   return (
     <>
-      <div id={`project`} onClick={handleClick}>
+      <div id={`project`} onClick={handleClick1}>
         <div className="project-container" >
             
             <img src={`project-${projectId}.svg`} alt="" id="file" />
@@ -31,7 +32,7 @@ export default function Project({ projectId ,name, projectName, description, dem
               {stack.map((src,index) =>(<img key={index} src={`${src}.svg`} width={24}/>))}
             </div>
         </div>
-        <Dialog size_={size_} setSize={setSize}/>
+        <Dialog size_={size_} setSize={setSize} />
       </div>
       
 
