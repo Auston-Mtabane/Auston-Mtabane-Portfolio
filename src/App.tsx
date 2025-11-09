@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import Nav from './components/Nav'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Projects />
       <span id='About'></span>
       <AboutMe/>
-      <span id='pr'></span>
+      <span id='contact'></span>
+      <Contact/>
       <Footer />
       
 

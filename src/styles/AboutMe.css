@@ -41,6 +41,8 @@
 
 .skills-row {
   text-align: center;
+    max-width: 80rem;
+
 }
 
 .badge {

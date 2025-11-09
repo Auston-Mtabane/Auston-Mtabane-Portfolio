@@ -70,4 +70,26 @@
     }
 }
 
-@media only screen and (min-width:768px) {}
+@media only screen and (min-width:768px) {
+
+    #hero-text h1 {
+        color: rgb(145, 145, 145);
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+        line-height: 3rem;
+        margin-inline: auto;
+        margin-block: 2rem;
+    }
+}
+@media only screen and (min-width:992px) {
+
+    #hero-text h1 {
+    color: rgb(145, 145, 145);
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+}
