@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Nav from './components/Nav'
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <span id='About'></span>
       <AboutMe/>
       <span id='pr'></span>
+      <Footer />
       
 
 

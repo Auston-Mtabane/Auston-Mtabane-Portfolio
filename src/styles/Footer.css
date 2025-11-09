@@ -1,0 +1,142 @@
+.footer {
+  width: 100%;
+  
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-block: 2rem;
+  max-width: 80rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #161616; 
+  
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.footer-content {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo-svg {
+  width: 10rem;
+  height: 2rem;
+}
+
+.footer-nav {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.75rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom-width: 1px;
+  border-color: rgb(229 231 235);
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-nav {
+    flex-direction: row;
+    gap: 3rem;
+  }
+}
+
+.footer-nav li {
+  margin: 0;
+}
+
+.footer-nav-link {
+  color: rgb(31 41 55);
+  text-decoration: none;
+}
+
+.footer-nav-link:hover {
+  color: rgb(17 24 39);
+}
+
+.footer-social {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.footer-social-link {
+  display: block;
+  color: rgb(219, 219, 219);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.footer-social-link:hover {
+  color: rgb(79 70 229);
+}
+
+.footer-social-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-social-icon-instagram {
+  width: 1.688rem;
+  height: 1.688rem;
+}
+
+.footer-social-icon-facebook {
+  width: 0.938rem;
+  height: 1.625rem;
+}
+
+.footer-social-icon-youtube {
+  width: 1.875rem;
+  height: 1.375rem;
+}
+
+.footer-copyright {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgb(107 114 128);
+  text-align: center;
+  display: block;
+}
+
+.footer-copyright a {
+  color: inherit;
+  text-decoration: none;
+}
