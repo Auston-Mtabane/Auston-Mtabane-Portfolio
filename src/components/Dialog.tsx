@@ -5,7 +5,7 @@ interface Prop {
   size_: string;
   setSize: React.Dispatch<React.SetStateAction<string>>;
 }
-export default function Dialog({ size_, setSize }: Prop) {
+export default function Dialog({ size_ }: Prop) {
   const [s,setS]= useState(size_);
   console.log("size_ = "+size_);
 
