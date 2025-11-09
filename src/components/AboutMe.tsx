@@ -1,4 +1,25 @@
 import "../styles/AboutMe.css";
+const skills = [
+  "Java",
+  "Python",
+  "C++",
+  "Embedded Systems",
+  "APIs",
+  "OOP",
+  "Full-Stack Development",
+  "GitLab",
+  "Agile Methodology",
+  "Test Driven Development (TDD)",
+  "Systems Design",
+  "Software Engineering Principles",
+  "Figma",
+  "UI/UX Design",
+  "Inkscape",
+  "Graphic Design",
+  "3D Modeling",
+];
+
+const colors = ["gray", "indigo", "red", "amber", "emerald"];
 
 export default function AboutMe() {
   return (
@@ -19,15 +40,13 @@ export default function AboutMe() {
           <h4>
             skills
           </h4>
-          <div id="skills-inner-div">
-            <span className="skill">Agile Development</span>
-            <span className="skill">UI/UX Design</span>
-            <span className="skill">Test Driven Development</span>
-            <span className="skill">Software Engineering</span>
-            <span className="skill">Graphic Design</span>
-            
+          <div className="skills-row">
+            {skills.map((skill, index) => (
+              <span key={index} className={`badge ${colors[index % colors.length]}`}>
+                {skill}
+              </span>
+            ))}
           </div>
-
         </div>
       </div>
     </div>

@@ -39,15 +39,58 @@
     border: 1px solid rgb(255, 255, 255);
 }
 
-#skills-inner-div{
-    display: block;
-    max-width: 800px;    
+.skills-row {
+  text-align: center;
 }
-.skill {
-    padding-inline: 1rem;
-    background-color: antiquewhite;
-    color: orange;
-    border-radius: 3rem ;
-    border: 1px solid orange;
-    margin: 4px;
+
+.badge {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  margin-right: 0.7rem;
+  margin-bottom: 0.7rem;
+  border-width: 1px;
+  display: inline-block;
+  box-shadow: #949494 2px 2px 4px 0px;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;   
+}
+
+/* Gray */
+.badge.gray {
+  background: #f3f4f6;
+  color: #374151;
+  border-color: #9ca3af;
+}
+
+/* Indigo */
+.badge.indigo {
+  background: #eef2ff;
+  color: #6366f1;
+  border-color: #818cf8;
+}
+
+/* Red */
+.badge.red {
+  background: #fef2f2;
+  color: #dc2626;
+  border-color: #f87171;
+}
+
+/* Amber */
+.badge.amber {
+  background: #fffbeb;
+  color: #d97706;
+  border-color: #fbbf24;
+}
+
+/* Emerald */
+.badge.emerald {
+  background: #ecfdf5;
+  color: #059669;
+  border-color: #6ee7b7;
 }
