@@ -1,0 +1,86 @@
+GET http://localhost:5050/
+
+### request all tasks
+
+GET http://localhost:5050/tasks
+
+### request all tasks by group id = 2
+GET http://localhost:5050/tasks/2
+
+### request one task, id = 1
+GET http://localhost:5050/task/1
+
+### request one task, id = 2
+GET http://localhost:5050/task/7
+
+### request one task, id = 9000
+GET http://localhost:5050/task/9000
+
+###
+GET http://localhost:7000/towns/KwaZulu-Natall
+
+###
+POST http://localhost:5050/task
+
+{
+    "description":"play music",
+    "startDate":null,
+    "dueDate":null,
+    "status":"NOT_STARTED"
+
+}
+###
+
+POST http://localhost:5050/task
+
+{
+    "description":"System Integration",
+    "startDate":"2025-11-03T18:42:00Z",
+    "dueDate":"2025-11-07T18:42:00Z",
+    "status":"IN_PROGRESS",
+    "group": {
+        "id" : 3,
+    "name" : "School",
+    "emoji" : "📚"
+}
+
+}
+
+###
+### post a group
+
+POST  http://localhost:5050/group
+
+{
+    "name" : "Work",
+    "emoji" : "💼"
+}
+
+### post a group
+
+POST  http://localhost:5050/group
+
+{
+    "name" : "School",
+    "emoji" : "📚"
+}
+
+### get a group
+
+GET http://localhost:5050/group/1
+
+### get a group
+
+GET http://localhost:5050/group/19
+
+### get a groups
+
+GET http://localhost:5050/groups/
+
+### complete a task id = 2
+
+PATCH http://localhost:5050/task/2/complete/
+
+### delete task with id = 4
+
+DELETE http://localhost:5050/task/5
