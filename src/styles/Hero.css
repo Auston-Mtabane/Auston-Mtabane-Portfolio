@@ -70,7 +70,7 @@
     }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:601px) {
 
     #hero-text h1 {
         color: rgb(145, 145, 145);

@@ -1,0 +1,116 @@
+.accordion-group {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.accordion.first {
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.accordion-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 2rem;
+  color: #4b5563;
+  transition: color 0.5s ease;
+}
+
+.accordion-toggle:hover {
+  color: #9b752f;
+}
+
+.accordion-toggle.active {
+  color: #9b752f;
+}
+
+.accordion-toggle h5 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.accordion-icon {
+  color: #111827;
+  transition: all 0.5s ease;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.accordion-toggle:hover .accordion-icon {
+  color: #4f46e5;
+}
+
+.accordion-toggle.active .accordion-icon {
+  color: #4f46e5;
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  width: 100%;
+  padding: 0;
+  padding-right: 1rem;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  
+}
+
+.accordion-content.open {
+  max-height: 500px;
+  padding-top: 1rem;
+}
+
+.accordion-content p {
+  margin: 0;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+/* Additional styling for better UX */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.textblock {
+    display: block;
+    text-align: left;
+}
+
+.textblock h1{
+    font-weight: 400;
+    
+}
+.textblock.experience h2{
+    margin-block: 1rem;
+    
+}
+
+.company {
+  font-style: italic;
+  
+  color: #6c7788;
+}
+

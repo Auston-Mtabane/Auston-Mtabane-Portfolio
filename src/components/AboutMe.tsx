@@ -1,25 +1,6 @@
 import "../styles/AboutMe.css";
-const skills = [
-  "Java",
-  "Python",
-  "C++",
-  "Embedded Systems",
-  "APIs",
-  "OOP",
-  "Full-Stack Development",
-  "GitLab",
-  "Agile Methodology",
-  "Test Driven Development (TDD)",
-  "Systems Design",
-  "Software Engineering Principles",
-  "Figma",
-  "UI/UX Design",
-  "Inkscape",
-  "Graphic Design",
-  "3D Modeling",
-];
+import Accordion from "./Accordion";
 
-const colors = ["gray", "indigo", "red", "amber", "emerald"];
 
 export default function AboutMe() {
   return (
@@ -36,18 +17,9 @@ export default function AboutMe() {
           </p>
 
         </div>
-        <div id="skills-outer-div">
-          <h4>
-            skills
-          </h4>
-          <div className="skills-row">
-            {skills.map((skill, index) => (
-              <span key={index} className={`badge ${colors[index % colors.length]}`}>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
+
+        < Accordion />
+        
       </div>
     </div>
 
